@@ -40,6 +40,6 @@ git push -f git@huguanData:${USERNAME}/${USERNAME}.github.io.git master
 
 #！/bin/sh
 
-rm -rm ./dist
+rm -rf ./dist
 
 exec /bin/bash
