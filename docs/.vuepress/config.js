@@ -1,5 +1,5 @@
 module.exports = {
-  // base: '/dmx-tool-help/',
+  base: '/dist/',
   title: '这里是网页标题',
   description: '这里是网页描述',
   themeConfig: {
