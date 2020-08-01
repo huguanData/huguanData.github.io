@@ -13,6 +13,7 @@ npm run docs:build
 # mv temp ./docs/.vuepress/dist
 # mv ./docs/.vuepress/dist/temp ./docs/.vuepress/dist/docs
 # rm -rf ./docs/.vuepress/dist/docs/.vuepress/dist
+mv ./docs/.vuepress/dist ./
 
 # 进入生成的文件夹
 # cd docs/.vuepress/dist
@@ -38,4 +39,7 @@ git push -f git@huguanData:${USERNAME}/${USERNAME}.github.io.git master
 # cd -
 
 #！/bin/sh
+
+rm -rm ./dist
+
 exec /bin/bash
