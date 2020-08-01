@@ -2,8 +2,6 @@
 
 ## 公差分析
 
-[测试链接]($withBase('/calculator/tolerance-analysis/1.png'))
-
 ### 1.工具背景概述
   尺寸链（dimensional chain）在零件加工或机器装配过程中，由互相联系的尺寸按一定顺序首尾相接排列而成的封闭尺寸组。组成尺寸链的各个尺寸称为尺寸链的环。其中，在装配或加工过程最终被间接保证精度的尺寸称为封闭环，其余尺寸称为组成环。组成环可根据其对封闭环的影响性质分为增环和减环。若其他尺寸不变，那些本身增大而封闭环也增大的尺寸称为增环，那些本身增大而封闭环减小的尺寸则称为减环。  
 尺寸链是分析和技术工序尺寸的有效工具，在制订机械加工工艺过程和保证装配精度中都起着很重要的作用，利用尺寸链，可以分析确定机器零件的尺寸精度，保证加工精度和装配精度。利用该公差分析工具，结合制造商的制程能力，基于WC和RSS2种方法，计算装配尺寸链的封闭环，预测封闭环的合格率或者不良率，以此辅助设计师进行各个零件的制造公差的分配。本指南就以某尺寸链分析问题为例子，演示如何使用本工具。
@@ -15,7 +13,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    :src="$withBase('/calculator/tolerance-analysis/1.png')">
+    :src="$withBase('/calculator/tolerance-analysis/1.PNG')">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -30,7 +28,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    :src="$withBase('/calculator/tolerance-analysis/2.png')">
+    :src="$withBase('/calculator/tolerance-analysis/2.PNG')">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -48,7 +46,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    :src="$withBase('/calculator/tolerance-analysis/3.png')">
+    :src="$withBase('/calculator/tolerance-analysis/3.PNG')">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -65,7 +63,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    :src="$withBase('/calculator/tolerance-analysis/4.png')">
+    :src="$withBase('/calculator/tolerance-analysis/4.PNG')">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -81,7 +79,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    :src="$withBase('/calculator/tolerance-analysis/5.png')">
+    :src="$withBase('/calculator/tolerance-analysis/5.PNG')">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -94,7 +92,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    :src="$withBase('/calculator/tolerance-analysis/6.png')">
+    :src="$withBase('/calculator/tolerance-analysis/6.PNG')">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -118,7 +116,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    :src="$withBase('/calculator/quartered-method/1.png')">
+    :src="$withBase('/calculator/quartered-method/1.PNG')">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -135,7 +133,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    :src="$withBase('/calculator/quartered-method/2.png')">
+    :src="$withBase('/calculator/quartered-method/2.PNG')">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -152,7 +150,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    :src="$withBase('/calculator/quartered-method/3.png')">
+    :src="$withBase('/calculator/quartered-method/3.PNG')">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -167,7 +165,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    :src="$withBase('/calculator/quartered-method/4.png')">
+    :src="$withBase('/calculator/quartered-method/4.PNG')">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -182,7 +180,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    :src="$withBase('/calculator/quartered-method/5.png')">
+    :src="$withBase('/calculator/quartered-method/5.PNG')">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -200,7 +198,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    :src="$withBase('/calculator/cp-probability/1.png')">
+    :src="$withBase('/calculator/cp-probability/1.PNG')">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -215,7 +213,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    :src="$withBase('/calculator/cp-probability/2.png')">
+    :src="$withBase('/calculator/cp-probability/2.PNG')">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -233,7 +231,7 @@ ABS|变截面|6|2|2|20|ABS-钢
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    :src="$withBase('/calculator/buckle-calculation/1.png')">
+    :src="$withBase('/calculator/buckle-calculation/1.PNG')">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -251,7 +249,7 @@ ABS|变截面|6|2|2|20|ABS-钢
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    :src="$withBase('/calculator/buckle-calculation/2.png')">
+    :src="$withBase('/calculator/buckle-calculation/2.PNG')">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -268,7 +266,7 @@ ABS|变截面|6|2|2|20|ABS-钢
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    :src="$withBase('/calculator/buckle-calculation/3.png')">
+    :src="$withBase('/calculator/buckle-calculation/3.PNG')">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -286,7 +284,7 @@ ABS|变截面|6|2|2|20|ABS-钢
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    :src="$withBase('/calculator/buckle-calculation/4.png')">
+    :src="$withBase('/calculator/buckle-calculation/4.PNG')">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
