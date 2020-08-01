@@ -14,7 +14,7 @@ module.exports = {
     ],
     sidebarDepth: 2,
     // 以下是github设置
-    repo: 'huguanData/huguanData.github.iop',
+    repo: 'huguanData/huguanData.github.io',
     repoLabel: 'github',
     // 以下为可选的编辑链接选项
     // 假如你的文档仓库和项目本身不在一个仓库：
